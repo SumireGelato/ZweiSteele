@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+        >
+    <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Welcome to ZweiSteele v0.5a!"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:gravity="center_horizontal"
+        android:id="@+id/title" />
+
+    <Button android:id="@id/button4" android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:text="Browse Boosters"/>
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Browse TDs" />
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Browse Extra Boosters" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Enter a serial to go to that card directly!"
+        android:id="@+id/textView"
+        android:gravity="center_horizontal"/>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/main_cardid"
+            android:hint="eg. KC/S25-056"
+            android:layout_alignParentTop="true"
+            android:layout_toLeftOf="@+id/main_goBtn"
+            android:layout_alignBottom="@+id/main_goBtn"
+            android:lines="1"
+            android:maxLines="1"
+            android:inputType="text"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Go"
+            android:id="@+id/main_goBtn"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginRight="87dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Serial number must be exact!"
+            android:layout_below="@+id/main_cardid"
+            android:layout_alignLeft="@+id/main_cardid"
+            android:layout_alignStart="@+id/main_cardid"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Card Images are © bushiroad All Rights Reserved"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/textView3"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Card Translations done by Heart of the Cards"
+            android:id="@+id/textView2"
+            android:layout_above="@+id/textView3"
+            android:layout_centerHorizontal="true"/>
+    </RelativeLayout>
+
+</LinearLayout>
+

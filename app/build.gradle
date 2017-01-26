@@ -1,0 +1,25 @@
+apply plugin: 'com.android.application'
+
+android {
+    signingConfigs {
+    }
+    compileSdkVersion 19
+    buildToolsVersion "22.0.1"
+    defaultConfig {
+        applicationId "com.monash.ZweiSteele"
+        minSdkVersion 16
+        targetSdkVersion 19
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
+        }
+    }
+}
+
+dependencies {
+    compile files('libs/commons-lang3-3.3.2.jar')
+    compile files('libs/jsoup-1.7.3-javadoc.jar')
+    compile files('libs/jsoup-1.7.3.jar')
+}

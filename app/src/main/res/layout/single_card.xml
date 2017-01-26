@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <ScrollView         xmlns:android="http://schemas.android.com/apk/res/android"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:fillViewport="true">
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:shrinkColumns="*"  android:stretchColumns="*">
+
+        <TableRow
+            android:layout_height="wrap_content"
+            android:layout_width="fill_parent"
+            android:gravity="center_horizontal">
+        <TextView
+            android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:layout_span="5"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text=""
+            android:id="@+id/singleCard_cardnameEng"/>
+    </TableRow>
+
+    <TableRow
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:gravity="center_horizontal">
+        <TextView
+            android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:layout_span="5"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text=""
+            android:id="@+id/singleCard_cardnameJP" />
+    </TableRow>
+
+    <TableRow
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:gravity="center_horizontal">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:id="@+id/singleCard_cardPic"
+            android:layout_span="5"
+            android:scaleType="fitCenter" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal">
+        <TextView
+            android:layout_height="wrap_content"
+            android:text="Card No:"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:text=""
+            android:id="@+id/singleCard_cardNo"/>
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:text="Rarity: "
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:text=""
+            android:id="@+id/singleCard_rarity"/>
+    </TableRow>
+
+    <TableRow
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal">
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:text="Color: "
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:text=""
+            android:id="@+id/singleCard_color"/>
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:text="Side: "
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:text=""
+            android:id="@+id/singleCard_side"/>
+    </TableRow>
+
+    <TableRow
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal">
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:text="Type: "
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:text=""
+            android:id="@+id/singleCard_type"/>
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:text="Level: "
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:text=""
+            android:id="@+id/singleCard_level"/>
+    </TableRow>
+
+    <TableRow
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal">
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:text="Power: "
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:text=""
+            android:id="@+id/singleCard_power"/>
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:text="Cost: "
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:text=""
+            android:id="@+id/singleCard_cost"/>
+    </TableRow>
+
+    <TableRow
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal">
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:text="Soul: "
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:text=""
+            android:id="@+id/singleCard_soul"/>
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:text="Trait 1: "
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:text=""
+            android:id="@+id/singleCard_trait1"/>
+    </TableRow>
+
+    <TableRow
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal">
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:text="Triggers: "
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:text=""
+            android:id="@+id/singleCard_tiggers"/>
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:text="Trait 2: "
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:text=""
+            android:id="@+id/singleCard_trait2"/>
+    </TableRow>
+
+    <TableRow
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:gravity="center_horizontal">
+
+        <TextView
+            android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:layout_span="5"
+            android:text="Translated Effect Text"
+            android:gravity="center"
+            android:textStyle="bold"/>
+    </TableRow>
+
+    <TableRow
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:gravity="center_horizontal">
+
+        <TextView
+            android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:layout_span="5"
+            android:text=""
+            android:id="@+id/singleCard_effectEng"
+            android:gravity="left"/>
+    </TableRow>
+
+    <TableRow
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:gravity="center_horizontal">
+
+        <TextView
+            android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:layout_span="5"
+            android:text="Original Japanese Effect Text"
+            android:gravity="center"
+            android:textStyle="bold"/>
+    </TableRow>
+
+    <TableRow
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:gravity="center_horizontal">
+
+        <TextView
+            android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:layout_span="5"
+            android:text=""
+            android:id="@+id/singleCard_effectJp"
+            android:gravity="left"/>
+    </TableRow>
+    </TableLayout>
+</ScrollView>
